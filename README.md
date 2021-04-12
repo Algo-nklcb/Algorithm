@@ -17,9 +17,9 @@
 <br>
 
 # 💡 일정표
-|<center>주차</center>|<center>1</center>|<center>2</center>|<center>3</center>|<center>4</center>|<center>5</center>|<center>책</center>|
-|---|---|---|---|---|---|---|
-|<center>week1</br>(04.09 ~ 04.15)</center>|<center>[2156번 <br> 포도주 시식 <br>](https://www.acmicpc.net/problem/2156)</center>|<center>[2579번 <br> 계단 오르기 <br>](https://www.acmicpc.net/problem/2579)</center>|<center>[15829번 <br> Hashing](https://www.acmicpc.net/problem/15829)</center>|<center>[1967번 <br> 트리의 지름](https://www.acmicpc.net/problem/1967)</center>|<center>[9663번 <br> N-Queen](https://www.acmicpc.net/problem/9663)</center>|<center>12장 그래프</center>|
+|<center>주차</center>|<center>1</center>|<center>2</center>|<center>3</center>|<center>4</center>|<center>5</center>|<center>책</center>|<center>DongGunYoon</center>|<center>HyunJungC</center>|<center>KoSangWon</center>|<center>toryjkim</center>|
+|---|---|---|---|---|---|---|---|---|---|---|
+|<center>week1</br>(04.09 ~ 04.15)</center>|<center>[2156번 <br> 포도주 시식 <br>](https://www.acmicpc.net/problem/2156)</center>|<center>[2579번 <br> 계단 오르기 <br>](https://www.acmicpc.net/problem/2579)</center>|<center>[15829번 <br> Hashing](https://www.acmicpc.net/problem/15829)</center>|<center>[1967번 <br> 트리의 지름](https://www.acmicpc.net/problem/1967)</center>|<center>[9663번 <br> N-Queen](https://www.acmicpc.net/problem/9663)</center>|<center>12장 그래프</center>|<center>2, 3</center>|<center>1, 3</center>|<center>4, 5</center>|<center>4, 5</center>|
 |<center>week2</br>(04.16 ~ 04.22)</center>||||||
 |<center>week3</br>(04.23 ~ 04.29)</center>||||||
 |<center>week3</br>(04.30 ~ 05.06)</center>||||||
