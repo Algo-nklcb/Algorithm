@@ -1,9 +1,9 @@
 # week1
-+ 1) BOJ_2579(계단오르기).py
-+ 2) BOJ_2156(포도주시식).py
-+ 3) BOJ_15829(Hashing).py
++ BOJ_2579(계단오르기).py
 
-<br>
++ BOJ_2156(포도주시식).py
+  
++ BOJ_15829(Hashing).py
 
 ***
 
