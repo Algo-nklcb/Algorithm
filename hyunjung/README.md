@@ -5,6 +5,8 @@
   
 + BOJ_15829(Hashing).py
 
++ BOJ_1967(트리의지름).py
++ 
 ***
 
 ## BOJ_2579(계단오르기).py
@@ -22,3 +24,10 @@
 
 ## BOJ_15829(Hashing).py
 + [문제링크](https://www.acmicpc.net/problem/15829)
+
+***
+
+## BOJ_1967(트리의지름).py
++ [문제링크](https://www.acmicpc.net/problem/1967)
++ [트리의 지름 구하는 공식](https://hyunjungc-dev.github.io/2021/04/14/%ED%8A%B8%EB%A6%AC%EC%9D%98-%EC%A7%80%EB%A6%84-%EA%B5%AC%ED%95%98%EA%B8%B0/)
++ [RecursionError 원인/해결](https://hyunjungc-dev.github.io/2021/04/14/1967%EB%B2%88-%ED%8A%B8%EB%A6%AC%EC%9D%98-%EC%A7%80%EB%A6%84-RecursionError-%ED%95%B4%EA%B2%B0/)
