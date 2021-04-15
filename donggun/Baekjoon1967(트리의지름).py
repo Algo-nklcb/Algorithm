@@ -1,35 +1,24 @@
+import sys
+
 info = dict()
-dist = dict()
+n = int(sys.stdin.readline())
 
-n = int(input())
-
-if n == 1:
-    print(0)
-else:
+def solution(start):
+    global info
+    dist = {}
     heap = []
+    for key in info.keys():
+        dist[key] = float('inf')
 
-    for _ in range(n-1):
-        p, c, w = map(int, input().split())
-        if p not in info:
-            info[p] = []
-        if c not in info:
-            info[c] = []
-
-        dist[p], dist[c] = float("inf"), float("inf")
-        info[p].append((w, c))
-        info[c].append((w, p))
-
-    dist[1] = 0
+    dist[start] = 0
     max_node = 0
     max_weight = 0
 
-    for node in info[1]:
+    for node in info[start]:
         heap.append(node)
 
     while heap:
-        pop = heap.pop(0)
-        weight = pop[0]
-        node = pop[1]
+        weight, node = heap.pop(0)
 
         if dist[node] > weight:
             dist[node] = weight
@@ -38,31 +27,25 @@ else:
                 max_node = node
             
             for adj_node in info[node]:
-                w, n = adj_node[0], adj_node[1]
+                w, n = adj_node
                 if w+weight < dist[n]:
                     heap.append((w+weight, n))
 
-    for key in dist.keys():
-        dist[key] = float('inf')
+    return max_node, max_weight
 
-    dist[max_node] = 0
+if n == 1:
+    print(0)
 
-    for node in info[max_node]:
-        heap.append(node)
+else:
+    for _ in range(n-1):
+        p, c, w = map(int, sys.stdin.readline().split())
+        if p not in info:
+            info[p] = []
+        if c not in info:
+            info[c] = []
 
-    while heap:
-        pop = heap.pop(0)
-        weight = pop[0]
-        node = pop[1]
+        info[p].append((w, c))
+        info[c].append((w, p))
 
-        if dist[node] > weight:
-            dist[node] = weight
-            if weight > max_weight:
-                max_weight = weight
-            
-            for adj_node in info[node]:
-                w, n = adj_node[0], adj_node[1]
-                if w+weight < dist[n]:
-                    heap.append((w+weight, n))
-
-    print(max_weight)
+    end_n, end_w = solution(1)
+    print(solution(end_n)[1])
