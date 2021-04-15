@@ -6,7 +6,8 @@
 + BOJ_15829(Hashing).py
 
 + BOJ_1967(트리의지름).py
-+ 
+
++ (미해결)BOJ_9663(NQueen).py
 ***
 
 ## BOJ_2579(계단오르기).py
