@@ -3,7 +3,7 @@ import copy
 n, m = map(int, input().split(' '))
 lab = []
 
-for i in range(m):
+for i in range(n):
     lab.append(list(map(int, input().split(' '))))
 
 
@@ -51,6 +51,3 @@ for w in three_walls:
         dfs(v[0], v[1], tmp_lab)
     answer = max(answer, count_wall(tmp_lab, 0))
 print(answer)
-
-
-# print(lab)
