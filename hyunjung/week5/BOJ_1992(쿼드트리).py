@@ -11,8 +11,12 @@ def recursive(s_i, s_j, k):  # start i, start j
         for j in range(s_j, s_j+k):
             if image[i][j] == 0:
                 is_all_1 = False
+                break
             else:
                 is_all_0 = False
+                break
+        if not is_all_0 and not is_all_1:
+            break
 
     if is_all_1:
         print(1, end='')
