@@ -1,7 +1,7 @@
 import sys
 
 m = int(sys.stdin.readline())
-S = set()
+S = 0
 for _ in range(m):
     cmd = sys.stdin.readline()
 
